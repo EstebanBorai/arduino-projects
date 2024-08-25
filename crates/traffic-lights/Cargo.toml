@@ -1,0 +1,20 @@
+[package]
+name = "traffic-lights"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[[bin]]
+name = "traffic-lights"
+test = false
+bench = false
+
+[dependencies]
+arduino-hal = { workspace = true, features = ["arduino-uno"] }
+embedded-hal = { workspace = true }
+nb = { workspace = true }
+panic-halt = { workspace = true }
+ufmt = { workspace = true }
+
+[build-dependencies]
+proc-macro2 = "=1.0.79"
