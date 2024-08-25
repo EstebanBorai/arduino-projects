@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "crates/blink",
+    "crates/traffic-lights",
 ]
 resolver = "2"
 
