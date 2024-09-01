@@ -2,6 +2,8 @@
 members = [
     "crates/blink",
     "crates/traffic-lights",
+    "crates/movement-sensor",
+    "crates/light-alarm"
 ]
 resolver = "2"
 
